@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout CSS 3 Kolom 2 Baris</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial;
+            margin: 0;
+            text-align: center;
+        }
+
+        .header{
+            background-color: lightblue;
+            padding: 30px;
+            font-size: 30px;
+        }
+
+        .row{
+            display: flex;
+        }
+
+        .column{
+            flex: 1;
+            padding: 40px;
+            height: 250px;
+            border: 2px solid white;
+            font-size: 25px;
+        }
+
+        .left{
+            background-color: lightgreen;
+        }
+
+        .middle{
+            background-color: lightyellow;
+        }
+
+        .right{
+            background-color: lightcoral;
+        }
+
+        .footer{
+            background-color: gray;
+            padding: 25px;
+            font-size: 25px;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        Header
+    </div>
+
+    <div class="row">
+
+        <div class="column left">
+            Sidebar Kiri
+        </div>
+
+        <div class="column middle">
+            Content / Isi
+        </div>
+
+        <div class="column right">
+            Sidebar Kanan
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Footer
+    </div>
+
+</body>
+</html>
