@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Evaluasi Nilai Huruf Javascript</title>
+</head>
+
+<body>
+
+<center>
+
+<h2>PROGRAM EVALUASI NILAI</h2>
+
+<h3>Javascript IF Statement</h3>
+
+</center>
+
+<hr>
+
+<script>
+
+var nilai = parseInt(
+prompt(
+"Masukkan nilai (0 - 100): ",
+0
+)
+);
+
+var huruf = "";
+
+if (nilai >= 0 && nilai <= 20){
+
+    huruf = "E";
+
+}
+
+else if (nilai >= 21 && nilai <= 39){
+
+    huruf = "D";
+
+}
+
+else if (nilai >= 40 && nilai <= 64){
+
+    huruf = "C";
+
+}
+
+else if (nilai >= 65 && nilai <= 79){
+
+    huruf = "B";
+
+}
+
+else if (nilai >= 80 && nilai <= 100){
+
+    huruf = "A";
+
+}
+
+else{
+
+    huruf = "Nilai tidak valid";
+
+}
+
+document.write(
+"<h3>HASIL EVALUASI NILAI</h3>"
+);
+
+document.write(
+"Nilai Angka : <b>"
++ nilai +
+"</b><br><br>"
+);
+
+document.write(
+"Nilai Huruf : <b>"
++ huruf +
+"</b>"
+);
+
+</script>
+
+<hr>
+
+<b>
+
+Konversi Nilai:
+
+</b>
+
+<br><br>
+
+0 - 20 = E <br>
+
+21 - 39 = D <br>
+
+40 - 64 = C <br>
+
+65 - 79 = B <br>
+
+80 - 100 = A
+
+<br><br>
+
+<hr>
+
+Nama :
+Andi Fadillah Wardana <br>
+
+NIM :
+2500018035 <br>
+
+Kelas :
+A12
+
+</body>
+
+</html>
